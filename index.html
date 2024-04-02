@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>BMI calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Bmi calculator</h1>
+			<div class="input_field">
+				<form>
+				<label for="weight">Weight<span>(in killogram)<span></label>
+				<input type="number" name="weight"	id="weight" required>
+				<label for="height">Height<span>(in cm)<span></label>
+				<input type="number" name="height"	id="height" required>
+				<label for="age" >Age <span>[0-100]</span></label>
+				<input type="number" name="age" id="age" max="100" min="5" required>
+				<button onclick="calculate()">Calculate</button>
+				</div>
+			</form>
+				<div class="result" id="demo">
+					
+				</div>
+		</div>
+	</body>
+	</html>

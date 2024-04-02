@@ -1,0 +1,68 @@
+style.css
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background:antiquewhite;
+
+}
+.container{
+	height: 90%;
+    width: 500px;
+    background-color: #F5C8ED;
+    border-radius: 0 125px 0 153px;
+    padding:30px 10% 0 10%;
+    position: relative;
+}
+h1{
+	font-family: 'Farsan', cursive;
+	color:#fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+label{
+	font-size:20px;
+	font-family: 'Poor Story', cursive;
+	color:#fff;
+
+}
+input{
+	height: 42px;
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+span{
+	font-size:16px;
+}
+button{
+	padding:10px;
+	color:#fff;
+	background-color: #807673;
+	border:none;
+	margin-bottom: 10px;
+}
+.result{
+	height:150px;
+	width:380px;
+	font-size:30px;
+	color:#fff;
+	background:transparent;
+	position:absolute;
+	left:80px;
+
+}
